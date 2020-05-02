@@ -1,5 +1,3 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
 import time
 import random
 
@@ -11,8 +9,7 @@ def print_pause(message_to_print):
 
 def intro(items, monster):
     print_pause('You are on a wide field.')
-    print_pause('Your mission, remember, is to migrate north to King Edward.'
-                )
+    print_pause('Your mission, remember, is to migrate north to King Edward.')
     print_pause('For that, you must cross the bridge to the north.')
     print_pause('In the south, a mill faces the sun.')
     print_pause('In the east is a cave.')
@@ -21,9 +18,9 @@ def intro(items, monster):
 def start_choice(items, monster):
     print_pause('Where would you like to go now?')
     choice = input('''1. Bridge
-2. Mill
-3. Cave
-''')
+                        2. Mill
+                        3. Cave
+                        ''')
 
     if choice == '1':
         bridge(items, monster)
