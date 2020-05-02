@@ -18,9 +18,9 @@ def intro(items, monster):
 def start_choice(items, monster):
     print_pause('Where would you like to go now?')
     choice = input('''1. Bridge
-                        2. Mill
-                        3. Cave
-                        ''')
+2. Mill
+3. Cave
+''')
 
     if choice == '1':
         bridge(items, monster)
