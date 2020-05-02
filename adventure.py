@@ -192,5 +192,5 @@ def play_game():
     intro(items, monster)
     start_choice(items, monster)
 
-
-play_game()
+if __name__ == "__main__":
+    play_game()
